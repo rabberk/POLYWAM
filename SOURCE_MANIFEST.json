@@ -1,0 +1,366 @@
+[
+  {
+    "file": ".gitignore",
+    "sha256": "dbd4d9dd1972738c66b873e4c84c893186bd7bc383838b0588509afd1d32fcce"
+  },
+  {
+    "file": "LICENSE",
+    "sha256": "74412af245ed41bac5eb140381270943268bc4675997650be8bde3227b19e4a7"
+  },
+  {
+    "file": "README.md",
+    "sha256": "1ae8e9fc27b0ad576c02418a306e8d9b50203d05d3db37e8172ad168e33be306"
+  },
+  {
+    "file": "THIRD_PARTY_NOTICES.md",
+    "sha256": "f38b129b4eef2f83731fe5914d3af086c0c4471db00b1d422d9eb4344a3872d9"
+  },
+  {
+    "file": "VERIFICATION.md",
+    "sha256": "38640ac068bd2c8c96142ce9ccbddd66760ae24aa4692e40269583bc96536ba1"
+  },
+  {
+    "file": "licenses/Apache-2.0.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "file": "licenses/VJEPA-MIT.txt",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  {
+    "file": "prismatic/__init__.py",
+    "sha256": "7778679e5ae83809079e49aa975f5c96cc8eb42a38b1203e2e5f48ec42261c66"
+  },
+  {
+    "file": "prismatic/conf/__init__.py",
+    "sha256": "444038a563d827be1df37c54a27bf4fe9c43dabbb413a0d65410d4fe198b8161"
+  },
+  {
+    "file": "prismatic/conf/vla.py",
+    "sha256": "fd639350b998692a3d7bc5ad9cb2afe900c87a0d0e495bbbc5c3d42bcf3d73df"
+  },
+  {
+    "file": "prismatic/models/__init__.py",
+    "sha256": "4c895ffa8385810495b2d0187bd8eb9fbc6b8b5b0b8bfae4c1f18d5a091054fe"
+  },
+  {
+    "file": "prismatic/models/action_heads.py",
+    "sha256": "e5fe9beff55accb961d3621f7b14a7a5cf720ea0d65e08ea6b460ee0ec2d608f"
+  },
+  {
+    "file": "prismatic/models/b300_fa4_attention.py",
+    "sha256": "a3b279396b0e75c06272ed7f25ccb181c319759683b2224bc3106a041a17f3c4"
+  },
+  {
+    "file": "prismatic/models/backbones/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "prismatic/models/backbones/llm/__init__.py",
+    "sha256": "2b49a7e63408a91f9016dcd5ab85992a677a430216b325e53849e560bfbeb2f9"
+  },
+  {
+    "file": "prismatic/models/backbones/llm/base_llm.py",
+    "sha256": "e513cfee0eac601e6025c7672872bdd53e9688a2a6153ceb67b45cc48b56703d"
+  },
+  {
+    "file": "prismatic/models/backbones/llm/prompting/__init__.py",
+    "sha256": "4033204345b12905d2b11053887eb84005e8e8e12cb1f159e795602b699f9129"
+  },
+  {
+    "file": "prismatic/models/backbones/llm/prompting/base_prompter.py",
+    "sha256": "13640ed54b055c0fcd8daf7212be9f4faf76cec779fdd2e0f7ea5a866b0b6d51"
+  },
+  {
+    "file": "prismatic/models/backbones/llm/prompting/qwen_prompter.py",
+    "sha256": "8ce9140744dd19657858485f0cd3ddafa6b7deb77bf6cb98b11862e25c44cdb8"
+  },
+  {
+    "file": "prismatic/models/backbones/llm/qwen25.py",
+    "sha256": "5a5b25676e66de0db0269b6106356ab3febf4d6541dbf37ad7a4c0a5f4eaca1c"
+  },
+  {
+    "file": "prismatic/models/backbones/vision/__init__.py",
+    "sha256": "022de5ecc0bc03242038173fc6b5e707e6369c6890b87636f4c0d4abcde22d40"
+  },
+  {
+    "file": "prismatic/models/backbones/vision/base_vision.py",
+    "sha256": "e8ff345aa500eb89782a65fcc7839be02d7aaa871c987ed2a65620f8fd0d937e"
+  },
+  {
+    "file": "prismatic/models/backbones/vision/vjepa/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  {
+    "file": "prismatic/models/backbones/vision/vjepa/__init__.py",
+    "sha256": "4b213782a1a392df2d92c6afc1a1f20a211034621435e86b209b6c188eee5c1f"
+  },
+  {
+    "file": "prismatic/models/backbones/vision/vjepa/modules.py",
+    "sha256": "56f64a24f6480a3fe2c946bad04c6f569007d27475d34f9471e0c820e60c6a78"
+  },
+  {
+    "file": "prismatic/models/backbones/vision/vjepa/patch_embed.py",
+    "sha256": "8b5f52b33f8165138de4d1cb236ef1f0a466f102ecee95a0302c395f26234107"
+  },
+  {
+    "file": "prismatic/models/backbones/vision/vjepa/vision_transformer.py",
+    "sha256": "49287ace08defdf768082ca5e23414a34c46d271d3a3d61231ea906bd3f374a6"
+  },
+  {
+    "file": "prismatic/models/backbones/vision/vjepa_vit.py",
+    "sha256": "cdde70e3a532221495be5ef10b60a4ea2a37948ee684f71d25940dba2911b68c"
+  },
+  {
+    "file": "prismatic/models/ego_latent_ar.py",
+    "sha256": "e4d56616a6136493920c05818e8e5e31ec72a6035ea6b02847b050827ef2facd"
+  },
+  {
+    "file": "prismatic/models/fast_lewm.py",
+    "sha256": "c1788799f78b5d97cbd7fe23b1227853a2eeb27fd642f199a286552b42e75a88"
+  },
+  {
+    "file": "prismatic/models/flow_gr00t_action_head.py",
+    "sha256": "0dbee271d7e0ce1951f3ae5efed16974c58c8987729837d67b6e97f5e3468c71"
+  },
+  {
+    "file": "prismatic/models/flow_matching_head/__init__.py",
+    "sha256": "50101ffb21bb931b8bcc2ac33560949e66ee3f0cf3a69d687ecd85c4e4844da0"
+  },
+  {
+    "file": "prismatic/models/flow_matching_head/action_encoder.py",
+    "sha256": "880c546c87c2c6a455d370dad80fe65342437d76dc93e2cde2a479f66d154279"
+  },
+  {
+    "file": "prismatic/models/flow_matching_head/cross_attention_dit.py",
+    "sha256": "07e969dc4175e2ce294b13c389939af7f1e2cf65b622a7dcc578b3aad141f49e"
+  },
+  {
+    "file": "prismatic/models/load.py",
+    "sha256": "755bcf6036239110d4c0dc5095e9d93b17478cbedc2e80ab4471716532019796"
+  },
+  {
+    "file": "prismatic/models/materialize.py",
+    "sha256": "b7b45d11b631bcbb28181a733279c567aa1f3213c920875b33f48b30b89a0644"
+  },
+  {
+    "file": "prismatic/models/official_latent_head.py",
+    "sha256": "1a928a48d440b90f6eeaa54005ef150b1259488a1933bda67932a7b018aff274"
+  },
+  {
+    "file": "prismatic/models/representation_regularizers.py",
+    "sha256": "29796dfb3a0a5ccd05551054309334cd35b923825a40d2523b340ca7b2bd11a2"
+  },
+  {
+    "file": "prismatic/models/robotwin_latent_ar.py",
+    "sha256": "6721cd8f191a467b472cbb2e139d9bc51d910e6dfb9fc6475d46b77da09b6929"
+  },
+  {
+    "file": "prismatic/models/vlas/__init__.py",
+    "sha256": "66dcd212cef04c4ed7e62db5efad417b8019565a5d5f6f5eeeb132a493a45f8a"
+  },
+  {
+    "file": "prismatic/models/vlas/openvla.py",
+    "sha256": "d809518951c5828b2fceb55d7dbfbdc390b9b2ccf35658c89754835d66dd07db"
+  },
+  {
+    "file": "prismatic/models/vlms/__init__.py",
+    "sha256": "1a8d733d86c60e1e1cc6b1f70416605dc812e02013e9b0a9a0eebace182379e8"
+  },
+  {
+    "file": "prismatic/models/vlms/base_vlm.py",
+    "sha256": "d9a17005efba4134d9d601700ed27a67a9c8f9f2547aab43ca0f4d50cf90e9b3"
+  },
+  {
+    "file": "prismatic/models/vlms/ego_world_model.py",
+    "sha256": "219d231bdf467a9a3750427a40ba020bdeb0d183b0fc40aee7ad787cd91357ae"
+  },
+  {
+    "file": "prismatic/models/vlms/prismatic.py",
+    "sha256": "714adabf5258e3670a24c00ba6c8acfaf85291d5747cb9caf7b9cf99e526bab7"
+  },
+  {
+    "file": "prismatic/models/vlms/robotwin_ego_world_model.py",
+    "sha256": "24d1352add5abc8350fb99a2b01c3bb2020dbe790f8531ab586dc8ea9e4db8c4"
+  },
+  {
+    "file": "prismatic/overwatch/__init__.py",
+    "sha256": "bd036db0376e394f189a420f798d0fa0b93637b72004419ccaaf316b8b5e757d"
+  },
+  {
+    "file": "prismatic/overwatch/overwatch.py",
+    "sha256": "0b1ab05b44294176473a5ba5424f4a3630f5904af1d247a3a14d9f81435ba05e"
+  },
+  {
+    "file": "prismatic/py.typed",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "prismatic/training/__init__.py",
+    "sha256": "3b5deb688ceffbbd866ce94c13d8e564473a738d3af969a34f2866fbc48e6da8"
+  },
+  {
+    "file": "prismatic/training/checkpoint_migration.py",
+    "sha256": "4e9f991af2b2c154eb1035cc44a8d3c763d80d809f4903f1b0b664a6ac1e2b7a"
+  },
+  {
+    "file": "prismatic/training/materialize.py",
+    "sha256": "3f44bdaa916feda119e1956a523b9eae2a5e16a071c069750e44685cde750c12"
+  },
+  {
+    "file": "prismatic/training/metrics.py",
+    "sha256": "6ad798b026ce0c39411dc094f5e3df38383f53f885f6ee3665bd31a28fbe951c"
+  },
+  {
+    "file": "prismatic/training/recovery.py",
+    "sha256": "054505c7e28307143d21aec329b4836e1f90b9d7fac80be5f7a9d7265e800d5b"
+  },
+  {
+    "file": "prismatic/training/robotwin_performance.py",
+    "sha256": "26f99d7113bdc6d700b20626797171f44fa93e75be14924b45942748999303aa"
+  },
+  {
+    "file": "prismatic/training/strategies/__init__.py",
+    "sha256": "8e055e4c15fe278be11e920bec0fd79513afe3929dbfa3d112fe899c5c3d3576"
+  },
+  {
+    "file": "prismatic/training/strategies/base_strategy.py",
+    "sha256": "35a0daa4b3accb2678a46d043ca53d1dc52119a3a230ebfdf67731ea328f90bf"
+  },
+  {
+    "file": "prismatic/training/strategies/fsdp.py",
+    "sha256": "d4d6fb33b613103dbdb073fff7bfcafdeed6bd0b66033736ca91481fb64d876b"
+  },
+  {
+    "file": "prismatic/training/train.py",
+    "sha256": "1d7cf45a36eecd165f0a381d502272cb6d9a305e212a8ae7ed2453cb78de5bd1"
+  },
+  {
+    "file": "prismatic/util/__init__.py",
+    "sha256": "8ab7190ed1f1bd087966fcc59f35f9a7b4b315dd7b17f68a6a7ed6e335fc7380"
+  },
+  {
+    "file": "prismatic/util/data_utils.py",
+    "sha256": "8e2202bbcaf520e6fe473ac9adacf2659252b9909645252b5468ae30d6aec687"
+  },
+  {
+    "file": "prismatic/util/nn_utils.py",
+    "sha256": "c2746479e9add51a4be59176424c53b884e2d55518912b5fc8ab36b4be0922b4"
+  },
+  {
+    "file": "prismatic/util/rotation_utils.py",
+    "sha256": "f072322fc696542089ba177f0ebc737e5ef7ea7cfdabed9cd6557ed9889631ba"
+  },
+  {
+    "file": "prismatic/util/torch_utils.py",
+    "sha256": "930c552d319e81a35c7bfaad1aa42e852203bfd9636f41f52af3356738d8bdfe"
+  },
+  {
+    "file": "prismatic/vla/__init__.py",
+    "sha256": "be66a2efa4e9fe08f2d8aa9cf3b64f852a9fd2a66be9f033cd6ef55dcbeb62c4"
+  },
+  {
+    "file": "prismatic/vla/constants.py",
+    "sha256": "86ae65d69114d3645564dca311791752423281f4e1f0264232d46673fa53b134"
+  },
+  {
+    "file": "prismatic/vla/datasets/__init__.py",
+    "sha256": "3b65aa7adbd9113e397d87b6822ba4292f2496cd9f3ed4d7db37f4e45986644c"
+  },
+  {
+    "file": "prismatic/vla/datasets/datasets.py",
+    "sha256": "93366d1c6f69abf7bbfce0c13bcfe0cb6ba3918f77da20374aafb15232e15272"
+  },
+  {
+    "file": "prismatic/vla/datasets/droid_worldmodel.py",
+    "sha256": "8314eb21e322f12e130f12e00b7dcc550be3de265b3dfa29c58e71c6695aa8ee"
+  },
+  {
+    "file": "prismatic/vla/datasets/ego_tar.py",
+    "sha256": "a87d563cbacb70ce4c33b4e17adee0bbe0b725de658a47c53e8bebd3345335d9"
+  },
+  {
+    "file": "prismatic/vla/datasets/multitask_worldmodel.py",
+    "sha256": "f9f2a6187ea1c5df31ed21878e1f0cc1bacf627965e5f965df9ec3b5bb4dd92d"
+  },
+  {
+    "file": "prismatic/vla/datasets/rlds/__init__.py",
+    "sha256": "13bb9af97655cbcea6ae650b8efeccf69a1005e0114a6fa01b77f734e3175782"
+  },
+  {
+    "file": "prismatic/vla/datasets/rlds/dataset.py",
+    "sha256": "a21a03a93d5e5bf8b6c7ba0661621052a2780f91b7dcc54d318d271ed60f511c"
+  },
+  {
+    "file": "prismatic/vla/datasets/rlds/obs_transforms.py",
+    "sha256": "d7b27c011e7f4df1c4c5751c1e83012abacd2040a4fd269ea9fe59a0c284a121"
+  },
+  {
+    "file": "prismatic/vla/datasets/rlds/oxe/__init__.py",
+    "sha256": "3c78a9e413a053b7529def791a621ef273d76bc6cc6a32cf1be77d8b77e94d16"
+  },
+  {
+    "file": "prismatic/vla/datasets/rlds/oxe/configs.py",
+    "sha256": "3acca68333279b98f991a521b7af0b033919d6dfdf8dac6331e5992e1d5e1e93"
+  },
+  {
+    "file": "prismatic/vla/datasets/rlds/oxe/materialize.py",
+    "sha256": "cf199f586cb981d4fd1e3584c568f255f45631c0bf54ab6d43423855f048befa"
+  },
+  {
+    "file": "prismatic/vla/datasets/rlds/oxe/mixtures.py",
+    "sha256": "61c06d9a763cbe1941fc9bca95e5adb172e89d46fc3d28afb897179c7ffd7a84"
+  },
+  {
+    "file": "prismatic/vla/datasets/rlds/oxe/transforms.py",
+    "sha256": "10f8a34ba0de1df02e14dbbd928ff452c9aa959c2f92930da88e2ab17ff27b01"
+  },
+  {
+    "file": "prismatic/vla/datasets/rlds/traj_transforms.py",
+    "sha256": "1ed4e9a720e3a68ebf323a525af551155daed800703e801b0cdaddd3350eb32b"
+  },
+  {
+    "file": "prismatic/vla/datasets/rlds/utils/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "prismatic/vla/datasets/rlds/utils/data_utils.py",
+    "sha256": "deae5b04f848e773e0616c9069ce1d422b36654b07aff4bcb8cd51c23e2aaa97"
+  },
+  {
+    "file": "prismatic/vla/datasets/rlds/utils/goal_relabeling.py",
+    "sha256": "2333b62c507ea1c2b94b9d9cec3c884e92da18ead2f39936b5a2e138501b22d6"
+  },
+  {
+    "file": "prismatic/vla/datasets/robotwin_fastwam.py",
+    "sha256": "4d45f8233994d3519ccdfc37c2434262c5350e336dcf2aab4868a5c3b972f264"
+  },
+  {
+    "file": "prismatic/vla/datasets/robotwin_paper.py",
+    "sha256": "6b1cd28abdbba0e6ac8c3766c2888374212527a0a110c94a1de190e8c27b6749"
+  },
+  {
+    "file": "prismatic/vla/embodiments.py",
+    "sha256": "25f979329c2b94ec4aa63286c63f8f4bd3617153959d49e94db7ad9240306344"
+  },
+  {
+    "file": "prismatic/vla/materialize.py",
+    "sha256": "01f69befd13e1cfd902605afa6fa1f67333b276213eeb333c991110a5e085c10"
+  },
+  {
+    "file": "prismatic/vla/release_statistics.py",
+    "sha256": "4dc2681ff5e32208029c5e47cd8fa32cf67d4ac2caa5cd1338bed2272dd43238"
+  },
+  {
+    "file": "pyproject.toml",
+    "sha256": "d07a4e3b7ca6f8dce72fa33b98bae638574f71c1f49abd393fff48490a7a34c3"
+  },
+  {
+    "file": "scripts/train_robotwin.sh",
+    "sha256": "35a9520f77eb5390806d92703a65ded7f834af0e558141fe5372b45d9ad38fd8"
+  },
+  {
+    "file": "tests/test_core.py",
+    "sha256": "26904f557e4233e49637524a2237f579fa785e127a7538f070925a77e31f3d01"
+  }
+]

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.env
+.hf_token
+/datasets/
+/checkpoints/
+/runs/
+/logs/
+*.pt
+*.pth
+*.safetensors
